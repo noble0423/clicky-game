@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+div.gameStats {
+  background-image: url("sky-background.png");
+  background-position: center;
+  width: 64%;
+  height: 330px;
+  border: 1px solid #888888;
+  padding: 10px 0px 10px 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+/* div.scoreSummary {
+  position: absolute;
+  bottom: -120px;
+} */
+
+.gameStats {
+  text-align: center;
+  color: #FFD90F;
+  text-shadow: 2px 2px 4px #505050;
+  position: relative;
+}
+.message {
+  font-size: 17px;
+  /* text-align: center; */
+}
+
+.correctGuesses {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+.highScore {
+  position: absolute;
+  bottom: 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
